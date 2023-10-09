@@ -44,6 +44,8 @@ export default function SplitScreen() {
                     <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
                         Passionate and dedicated, I am a versatile software developer with a
                         background in computing engineering and a deep love for problemsolving. I've honed my skills through competitive programming.
+                        Winner of the Mexican informatic Olympiad (programming tournament) 2017
+
                     </Text>
                     <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
                         <Link href="https://www.linkedin.com/in/isaac-manjarrez-leyva-95382b1b7/?locale=en_US">
@@ -63,9 +65,9 @@ export default function SplitScreen() {
             </Flex>
             <Flex flex={1}>
                 <Image
-                    alt={'Login Image'}
+                    alt={'Cover'}
                     objectFit={'cover'}
-                    src={'/main.jpg'}
+                    src={'images/main.jpg'}
                 />
             </Flex>
         </Stack>
